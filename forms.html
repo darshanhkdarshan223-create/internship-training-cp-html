@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Darshan">
+        <meta name="keyword" content="Html,Basics of webApp">
+        <meta name="description" content="My Website for Learning"> 
+        <title>Learn HTML| CampusPe</title>      
+    </head>   
+    <body>
+        <center>
+            <h3>Register to Campuspe</h3>
+            <form method="post" enctype="multipart/form-data">
+                <!--This is for input type text-->
+                <!--
+                    myVariableName-> Camel Case -> js,c#,java
+                    MyVariableName -> Pascal Case -> C#,java,python
+                    my_variable_name -> Snake Case -> php,java
+                    my-variable-name -> Kebab Case -> css,html
+                    MY_CONSTANT_NAME -> screaming snake case
+                    myvariablename -> flat case
+                     -->
+                <label for="nameId">Name</label>
+                <input id="nameId" type="text" name="name" placeholder="Enter your name"><br><br>
+
+
+                <label for="emailId">Email</label>
+                <input id="emailId" type="email" name="MyEmail" placeholder="Enter your Email" required><br><br>
+
+                <label for="phoneId">Phone</label>
+                <input id="phoneId" type="number" name="myphone" placeholder="Enter your Phone Number"><br><br>
+
+                <label for="passwordId">Password</label>
+                <input id="passwordId" type="password" name="mypassword" placeholder="Enter your Desired Password"><br><br>
+
+                <label for="confirmPasswordId">Confirm Password</label>
+                <input id="confirmPasswordId" type="password" name="confirm_Password" placeholder="Confirm your Password"><br><br>
+                <input type="hidden" name="USER_ID">
+
+                <label>Choose Your Gender</label><br>
+                <label for="genderMale">Male</label>
+                <input type="radio" name="gender" value="male" id="genderMale">
+                <label for="genderFemale">Female</label>
+                <input type="radio" name="gender" value="female" id="genderFemale"><br><br>
+                
+                <label>Enter your hobbies</label><br>
+                <label for="hobbyReading">Reading</label> 
+                <input type="checkbox" name="hobbies" value="reading" id="hobbyReading"> 
+                <label for="hobbyTraveling">Traveling</label> 
+                <input type="checkbox" name="hobbies" value="traveling" id="hobbyTraveling">
+                <label for="hobbyCooking">Cooking</label> 
+                <input type="checkbox" name="hobbies" value="cooking" id="hobbyCooking"><br><br>
+
+
+                <input type="submit" value="Submit">
+
+            
+            </form>
+        </center>
+    </body>
+</html>
